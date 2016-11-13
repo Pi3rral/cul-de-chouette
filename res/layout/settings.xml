@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" android:orderingFromXml="true">
+  <PreferenceCategory
+  	android:title="@string/SettingsGeneralCategory">
+  	<CheckBoxPreference
+  	  android:title="@string/SettingsSaveOnExit"
+  	  android:defaultValue="true"
+  	  android:summary="@string/SettingsSaveOnExitSum"
+  	  android:key="AutoSave">
+  	</CheckBoxPreference>
+  	<CheckBoxPreference
+  	  android:title="@string/SettingsComplete"
+  	  android:defaultValue="true"
+  	  android:summary="@string/SettingsCompleteSum"
+  	  android:key="Complete">
+  	</CheckBoxPreference>
+  </PreferenceCategory>
+</PreferenceScreen>

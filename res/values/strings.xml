@@ -1,0 +1,249 @@
+<resources>
+
+    <string name="app_name">Cul De Chouette</string>
+    <string name="menu_settings">Paramètres</string>
+    <string name="menu_clear">Effacer les joueurs</string>
+    
+    <string name="ErrorNoPlayers">Il faut au moins 2 joueurs pour lancer la partie !</string>
+    
+    <string name="PointLabelShort">pt</string>
+    <string name="PointsLabelShort">pts</string>
+    
+    <string name="SettingsGeneralCategory">Paramètres généraux</string>
+    <string name="SettingsSaveOnExit">Sauvegarder les joueurs</string>
+    <string name="SettingsSaveOnExitSum">Sauvegarde le nom des joueurs avant de quitter l\'application</string>
+    <string name="SettingsComplete">Règles complètes</string>
+    <string name="SettingsCompleteSum">Jouer avec les règles complètes (Sirotage, Civet, Grelotine..)</string>
+    
+    <string name="title_activity_cul_de_chouette">Le Cul de Chouette</string>
+    <string name="PlayButtonLbl">Lancer la partie</string>
+    <string name="NewPlayerButtonLbl">Nouveau Joueur</string>
+    <string name="NoticeButtonLbl">Règles du jeu</string>
+    <string name="dice1Lbl">Dé 1</string>
+    <string name="dice2Lbl">Dé 2</string>
+    <string name="dice3Lbl">Dé 3</string>
+    <string name="curPlayer">lance les dés !</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_cdcsimple_game">CDCSimpleGame</string>
+    <string name="addPlayerTitle">Nouveau Joueur</string>
+    <string name="delPlayerTitle">Supprimer un joueur</string>
+    <string name="delPlayerSentence">Supprimer le joueur</string>
+    <string name="delAllPlayerSentence">Etes-vous sur de vouloir supprimer tous les joueurs ?</string>
+    
+    <string name="OkLbl">Valider</string>
+    <string name="CancerlLbl">Annuler</string>
+    
+    <string name="YesLbl">Oui</string>
+    <string name="NoLbl">Non</string>
+    
+    <string name="ErrorEmptyName">Erreur : champ vide..</string>
+    <string name="ContextFileName">playerList.save</string>
+    <string name="ValidateDice">Valider le lancer !</string>
+    <string name="BevueLbl">Bévue !</string>
+    <string name="PlayCivetLbl">Jouer le civet !</string>
+    <string name="PlayGrelottine">Attaqué par Grelottine !</string>
+    <string name="DiceError">Selectionnez les valeurs des dés !!</string>
+    <string name="BevueQuestion">Qui a fait une bévue ?</string>
+    <string name="PointsSumUp"><u>Score</u></string>
+    <string name="CancelGameLbl">Arrêter la partie ?</string>
+    <string name="CancelGameSentence">Etes vous sûr de vouloir arrêter la partie ? Toutes les points vont être remis à zéro !!gagne</string>
+    <string name="PointsWinLbl">gagne</string>
+    <string name="PointsLoseLbl">perd</string>
+    <string name="PointsLbl">point(s)</string>
+    <string name="PointsWith">avec</string>
+    <string name="PointsOf">de</string>
+    <string name="WithCivetLbl"> sur son Civet !</string>
+    <string name="SirotagePointsLbl">sur sirotage sur chouette de</string>
+    <string name="SirotagePointsLooseLbl">mais gagne un civet</string>
+    <string name="WinTheGame">gagne la partie avec</string>
+    <string-array name="CombosLbl">
+        <item>une Chouette</item>
+        <item>une Velute</item>
+        <item>une Choutte Velute</item>
+        <item>une Suite</item>
+        <item>un Cul de Chouette</item>
+        <item>une bévue</item>
+        <item>une grelottine</item>
+    </string-array>
+    
+    <string-array name="CombosBet">
+        <item>Chouette</item>
+        <item>Velute</item>
+        <item>Choutte Velute</item>
+        <item>Suite</item>
+        <item>Cul de Chouette sans Sirotage</item>
+        <item>Cul de Chouette avec Sirotage</item>
+    </string-array>
+    
+    <string name="SuiteQuestion">Qui a crié le dernier "Grelotte ça picotte" ?</string>
+    <string name="ChouetteVeluteQuestion">Qui a crié le premier "Pas mou l\'caillou" ?</string>
+    
+    <string name="SirotageTitle">Sirotage ?</string>
+    <string name="SirotageQuestion">tente un sirotage sur sa chouette ?</string>
+    <string name="SirotageBetQuestion">pari sur quel chiffre ?</string>
+    <string name="SirotageDiceQuestion">a réalisé quel chiffre sur son lancer ?</string>
+    <string name="SirotageBetResultSingle">gagne 25 points pour son pari !</string>
+    <string name="SirotageBetResultMultiple">gagnent 25 points pour leur pari !</string>
+    <string-array name="SirotageBetLbl">
+        <item>Linotte (1)</item>
+        <item>Alouette (2)</item>
+        <item>Fauvette (3)</item>
+        <item>Mouette (4)</item>
+        <item>Bergeronnette (5)</item>
+        <item>Chouette (6)</item>
+    </string-array>
+    
+    <string name="CivetPlayBet">Choisir la figure</string>
+    <string name="CivetPlayQuestion">mise combien de points sur son civet ?</string>
+    <string name="ErrorCivetPoints">La mise doit être comprise entre 0 et 102 points !</string>
+    
+    <string name="GrelottineStartQuestion">Qui est le grelottin ?</string>
+    <string name="ErrorGrelottineStart">n\'a pas de grelottine !!</string>
+    <string name="GrelottinePointsQuestion"> est défié(e) sur combien de points ?</string>
+    <string name="ErrorGrelottinePoints1">La mise doit être comprise entre 0 et</string>
+    <string name="ErrorGrelottinePoints2">points !</string>
+    <string name="GrelottineEndWin">les gagne !</string>
+    <string name="GrelottineEndLoose">les perd !</string>
+    <string name="ErrorAutoGrelottine">Erreur ! L\'auto-Grelottine n\'est pas autorisée !!</string>
+    
+    <string name="Error">Erreur !</string>
+    
+    <string name="NoticeTitle">Règles du Cul de Chouette</string>
+    <string name="NoticeOkLbl">Ok j\'ai compris !</string>
+    <string name="NoticeText1">Joueurs : au moins 2 !\n
+ Matériel : 3 dés de 6.\n
+ But du jeu : Atteindre 343 points.\n
+ Chaque joueur lance deux dés (les chouettes) puis après, le dernier dé (le cul), chacun à tour de rôle. Une fois les trois dés joués, il faut compter les points faits par le joueur.\n
+ Pour cela, sélectionnez les valeurs des dés dans l\'application, et validez !</string>
+ 	<string name="NoticeSimpleGame">Règles Simples !</string>
+ 	<string name="NoticeChouetteTitle">La Chouette</string>
+ 	<string name="NoticeChouetteNotice">Définition :\n
+On a une chouette lorsque l\’on a une paire de dé sur les 3 dés lancés.\n
+Exemple :\n
+Une paire de 2 est appelé une chouette de 2, une paire de 6 est appelé une chouette de 6 !\n
+Les points :\n
+Une Chouette vaut le carré de ladite chouette, soit :\n
+- Chouette de 1 = 1 points,\n
+- Chouette de 2 = 4 points,\n
+- Chouette de 3 = 9 points,\n
+- Chouette de 4 = 16 points,\n
+- Chouette de 5 = 25 points,\n
+- Chouette de 6 = 36 points.</string>
+ 	<string name="NoticeVeluteTitle">La Velute</string>
+ 	<string name="NoticeVeluteNotice">Définition :\n
+On a une velute lorsque l\’addition de 2 dé est égal au 3ème dé.\n
+Exemple :\n
+Si vous avez un 1 un 3 et un 4 alors vous avez une velute de 4 (1 + 3 = 4).\n
+Attention la combinaison 1 + 2 = 3 est une suite dont les règles s’appliquent également !\n
+De plus il ne faut pas confondre une velute et une chouette velute (cf ci-dessous).\n
+Les points :\n
+Une velute vaut le double du carré de la velute, soit :\n
+- Velute de 2 = 8 points,\n
+- Velute de 3 = 18 points,\n
+- Velute de 4 = 32 points,\n
+- Velute de 5 = 50 points,\n
+- Velute de 6 = 72 points.</string>
+ 	<string name="NoticeChouetteVeluteTitle">La Chouette Velute</string>
+ 	<string name="NoticeChouetteVeluteNotice">Définition :\n
+Une chouette velute est une chouette (une paire) avec une velute (addition de 2 dé égal au 3ème).\n
+Seul le joueur qui le premier frappe dans ses mains en criant “Pas mou l\’caillou” obtient des points.\n
+Si plusieurs joueurs effectuent en même temps l\n’enchainement, il y 2 possibilités :\n
+1- Le joueur qui a fait la chouette velute en fait partie\n
+Dans ce cas les autres lancent 1 dé, si l\’un d’entre eux fait 6 il remporte les points de la chouette velute, sinon c\’est le joueur qui a fait la chouette velute qui remporte les points\n
+2- Il n’en fait pas partie auquel cas chacun des joueurs lance 1 dé et jusqu’à ce qu\’un seul joueur obtienne un 6 il gagne les points de la chouette velute.\n
+Exemple :\
+Si vous avez un 1 un 1 et un 2 alors vous avez une chouette velute de 2 (1 + 1 = 2).\n
+Les 2 autres combinaisons sont donc 2/2/4 et 3/3/6\n
+Les points :\n
+Une chouette velute vaut comme la velute.</string>
+ 	<string name="NoticeCDCTitle">Le Cul de Chouette</string>
+ 	<string name="NoticeCDCNotice">Définition :\n
+Un cul de chouette est un brelan soit 3 dés pareils.\n
+Exemple :\n
+Si vous avez 3 , 3 et 3 vous avez alors un cul de chouette de 3.\n
+Les points :\n
+En fonction du cul de chouette :\n
+- Cul de chouette de 1 = 50 points,\n
+- Cul de chouette de 2 = 60 points,\n
+- Cul de chouette de 3 = 70 points,\n
+- Cul de chouette de 4 = 80 points,\n
+- Cul de chouette de 5 = 90 points,\n
+- Cul de chouette de 6 = 100 points.</string>
+ 	<string name="NoticeSuiteTitle">La Suite</string>
+ 	<string name="NoticeSuiteNotice">Définition :\n
+Une suite sont 3 dé qui se suivent avec un écart de 1.\n
+Le dernier joueur qui frappe du poing sur la table en criant “Grelotte ça picote” perd.\n
+Si plusieurs joueurs frappent en dernier du poing sur la table en criant “Grelotte ça picote” ils sont départagés par le cri “Sans fin est la moisissure des bières Bretonnes” : le dernier à le dire perd.\n
+Exemple :\n
+Si vous avez 1 / 2 / 3 ou 3 / 4 / 5…\n
+1 /2 /3 est également une suite et le joueur réalisant cette combinaison gagne également les points de la velute de 3 (18 points).\n
+Les points :\n
+Perte de 10 points (ou plus cf plus haut) pour le joueur qui est le dernier à exécuter l\’enchainement.\n
+S’il y a encore égalité, les joueurs restant lancent les dés, le plus petit score perd 10 points.\n
+S’il y a encore égalité, les joueurs restant lancent les dés, le plus petit score perd 20 points.\n
+S’il y a encore égalité, les joueurs restant lancent les dés, le plus petit score perd 30 points.\n
+etc …</string>
+ 	<string name="NoticeCompleteGame">Règles Complètes !</string>
+ 	<string name="NoticeSirotTitle">Sirotage</string>
+ 	<string name="NoticeSirotNotice">Définition :\n
+Lorsque les 3 dés ont été lancés et si le joueur à une chouette (une paire), il a la possibilité de siroter en lançant un dé pour obtenir un cul de chouette (un brelan donc).\n
+Les autres joueurs parient alors sur le chiffre que va donner le dé rejoué en l’appelant par son petit nom :\n
+- 1 : Linotte,\n
+- 2 : Alouette,\n
+- 3 : Fauvette,\n
+- 4 : Mouette,\n
+- 5 : Bergeronnette,\n
+- 6 : Chouette.\n
+Exemple :\n
+Perceval obtient une chouette de 4 avec ses 3 dés. Il sirote pour tenter le cul de chouette de 4 (sur une mouette). Karadoc pari sur une fauvette (3) et l’aubergiste mise sur une bergeronnette (5).\n
+Perceval relance donc le dé et obtient un 5 !\n
+Perceval perd donc les points de sa chouette (16 points) tandis que l’aubergiste gagne 25 points.\n
+Les points :\n
+Si réussi : le score du cul de chouette.\n
+Si raté : perte du score de la chouette.\n
+25 points pour celui qui trouve le chiffre du dernier dé.</string>
+	<string name="NoticeCivetSirotTitle">Civet Siroté</string>
+ 	<string name="NoticeCivetSirotNotice">Définition :\n
+Si un joueur rate un sirotage sur une chouette de 6, il gagne un civet.\n
+Les autres règles du sirotage s’appliquent toujours.</string>
+
+ 	<string name="NoticeCivetTitle">Civet</string>
+ 	<string name="NoticeCivetNotice">Définition :\n
+Un civet permet à un joueur de parier sur son prochain coup avec une partie de ses points. Avant de lancer ses chouette il indique alors ce qu’il tente : Chouette, Velute, Chouette velute, Suite, ou Cul de chouette avec ou sans sirotage.\n
+Il n’est pas possible de miser plus de 102 points.\n
+Les règles des autres combinaisons restent valables.\n
+Exemple :\n
+Perceval annonce l’utilisation de son civet : “Civet de 42 sur une chouette velute”, il mise donc 42 point sur la réalisation d’une chouette velute.\n
+Les points :\n
+En cas de réussite = Gain des points misés + les points de la combinaison.\n
+En cas d’échec = Perte des points misés mais gain des points de la combinaison effectuée le cas échéant.</string>
+ 	
+ 	<string name="NoticeNeantTitle">Néant</string>
+ 	<string name="NoticeNeantNotice">Définition :\n
+Les 3 dés lancés ne donnent aucune combinaison existante : c’est un néant, le joueur gagne une Grelottine.\n
+Si un autre joueur possède une grelottine il peut défier le joueur (voire grelottine).\n
+Exemple :\n
+Un 1 un 4 et un 6 : aucune combinaison ne correspond.\n
+Les points :\n
+Aucun point mais une gain d’une grelottine pour le joueur.</string>
+ 	
+ 	<string name="NoticeGrelottineTitle">Grelottine</string>
+ 	<string name="NoticeGrelottineNotice">Définition :\n
+Un joueur qui possède une grelottine peut défier un joueur qui vient de faire un néant.\n
+Pour le faire il faut crier “Grelottine” en se tapant sur la tête avec les 2 mains.\n
+Si plusieurs joueurs font l’enchainement en même temps, celui qui à le plus petit score l’emporte. Celui qui lance le défi est appelé Grelottin.\n
+Le grelottin choisi un nombre de points à mettre en jeu (max 30% des points du plus petit des scores des 2 joueurs) puis choisi le défi : Chouette, Velute, Chouette velute, Suite ou Cul de chouette avec ou sans sirotage.\n
+Exemple :\n
+Karadoc vient de faire un néant, l’aubergiste déclare “Je te défi de faire un cul de chouette pour une grelottine de 42 !”.\n
+Les points :\n
+En cas de réussite = Gain des points misés + les points de la combinaison tandis que le grelottin perd les points misé.\n
+En cas d’échec = Perte des points misés mais gain des points de la combinaison effectuée le cas échéant tandis que le grelottin gagne les points mis en jeu.</string>
+ 	
+ 	<string name="NoticeBevueTitle">Bévue</string>
+ 	<string name="NoticeBevueNotice">Définition :\n
+Un joueur se trompe, que ce soit dans l’annonce ou dans son tour de jeu…\n
+Exemple :\n
+Crier “Sans fin est la moisissure des bières bretonne” alors que tous les joueurs n’ont pas dit “Grelotte ça picote” est une bévue.\n
+Les points :\n
+Perte de 5 points.</string>
+</resources>

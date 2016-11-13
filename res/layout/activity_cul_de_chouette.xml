@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:background="@drawable/background"
+	android:textColor="#ffffff"  >
+    
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical" >
+        
+    <Button
+        android:id="@+id/newPlayerBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/sel_menu_button"
+        android:onClick="addPlayer"
+        android:text="@string/NewPlayerButtonLbl" 
+        android:layout_margin="5dp" 
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#d7a91b"/>
+    
+    <Button
+        android:id="@+id/startGameBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="@string/PlayButtonLbl"
+        android:onClick="playGame"
+        android:background="@drawable/sel_menu_button"
+        android:layout_margin="5dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#d7a91b"/>
+
+    <Button
+        android:id="@+id/noticeBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="@string/NoticeButtonLbl" 
+        android:onClick="showNotice"
+        android:background="@drawable/sel_menu_button"
+        android:layout_margin="5dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#d7a91b"/>
+    
+    </LinearLayout>
+    
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/buttonLayout"
+        android:drawSelectorOnTop="false"
+        android:background="@drawable/wood"
+        android:paddingRight="50dp"
+        android:paddingLeft="0dp"
+        android:paddingTop="20dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="5sp" >
+    </ListView>
+    
+</RelativeLayout>

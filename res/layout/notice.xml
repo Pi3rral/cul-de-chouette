@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/ScrollView01" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notice_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <TextView
+        android:id="@+id/ntitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:text="@string/NoticeTitle"
+        android:textSize="@dimen/padding_large" />
+
+    <TextView
+        android:id="@+id/nSumup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="2dp"
+        android:text="@string/NoticeText1" />
+
+    <TextView
+        android:id="@+id/nsimplegame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:text="@string/NoticeSimpleGame"
+        android:textSize="@dimen/padding_large" />
+    
+    <TextView
+        android:id="@+id/nchouettetitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="3dp"
+        android:text="@string/NoticeChouetteTitle" />
+    
+    <TextView
+        android:id="@+id/nchouettenotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="@string/NoticeChouetteNotice" />
+    
+    <TextView
+        android:id="@+id/nvelutetitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="3dp"
+        android:text="@string/NoticeVeluteTitle" />
+    
+    <TextView
+        android:id="@+id/nvelutenotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="@string/NoticeVeluteNotice" />
+    
+    <TextView
+        android:id="@+id/ncvelutetitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="3dp"
+        android:text="@string/NoticeChouetteVeluteTitle" />
+    
+    <TextView
+        android:id="@+id/ncvelutenotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="@string/NoticeChouetteVeluteNotice" />
+    
+    <TextView
+        android:id="@+id/ncdctitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="3dp"
+        android:text="@string/NoticeCDCTitle" />
+    
+    <TextView
+        android:id="@+id/ncdcnotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="@string/NoticeCDCNotice" />
+    
+    <TextView
+        android:id="@+id/nsuitetitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="3dp"
+        android:text="@string/NoticeSuiteTitle" />
+    
+    <TextView
+        android:id="@+id/nsuitenotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="@string/NoticeSuiteNotice" />
+    
+    
+    <TextView
+        android:id="@+id/ncompletegame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:text="@string/NoticeCompleteGame"
+        android:textSize="@dimen/padding_large" />
+    
+    <TextView
+        android:id="@+id/nsirottitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="3dp"
+        android:text="@string/NoticeSirotTitle" />
+    
+    <TextView
+        android:id="@+id/nsirotnotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="@string/NoticeSirotNotice" />
+    
+    <TextView
+        android:id="@+id/ncivetsirottitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="3dp"
+        android:text="@string/NoticeCivetSirotTitle" />
+    
+    <TextView
+        android:id="@+id/ncivetsirotnotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="@string/NoticeCivetSirotNotice" />
+    
+    <TextView
+        android:id="@+id/ncivettitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="3dp"
+        android:text="@string/NoticeCivetTitle" />
+    
+    <TextView
+        android:id="@+id/ncivetnotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="@string/NoticeCivetNotice" />
+    
+    
+    <TextView
+        android:id="@+id/nneanttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="3dp"
+        android:text="@string/NoticeNeantTitle" />
+    
+    <TextView
+        android:id="@+id/nneantnotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="@string/NoticeNeantNotice" />
+    
+    <TextView
+        android:id="@+id/ngrelottinetitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="3dp"
+        android:text="@string/NoticeGrelottineTitle" />
+    
+    <TextView
+        android:id="@+id/ngrelottinenotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="@string/NoticeGrelottineNotice" />
+    
+    <TextView
+        android:id="@+id/nbevuetitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="3dp"
+        android:text="@string/NoticeBevueTitle" />
+    
+    <TextView
+        android:id="@+id/nbevuenotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:text="@string/NoticeBevueNotice" />
+    
+</LinearLayout>
+</ScrollView>

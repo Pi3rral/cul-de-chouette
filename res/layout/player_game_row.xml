@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:paddingTop="2dip"
+  android:paddingLeft="10dip"
+  android:paddingBottom="2dip">
+  
+  <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/playerGameRowName"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+  	android:gravity="center_vertical|center_horizontal"
+    android:textStyle="bold"
+    android:textColor="#ffffff"
+    android:textSize="20dp" >
+  </TextView>
+  
+  <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:id="@+id/playerGamePoints"
+  	android:layout_alignParentRight="true"
+  	android:layout_alignTop="@id/playerGameRowName"
+  	android:layout_height="fill_parent"
+  	android:layout_width="90dp"
+  	android:gravity="center_vertical|center_horizontal"
+    android:textColor="#ffffff"
+  	android:textSize="18dp"
+  	android:paddingLeft="1dp">
+  </TextView>
+  
+  <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:id="@+id/playerGameCivet"
+  	android:layout_toLeftOf="@id/playerGamePoints"
+  	android:layout_alignTop="@id/playerGameRowName"
+  	android:layout_height="fill_parent"
+  	android:layout_width="22dp"
+  	android:text="C"
+  	android:gravity="center_vertical|center_horizontal"
+  	android:textStyle="bold"
+    android:textColor="#ffffff"
+  	android:textSize="18dp"
+  	android:paddingLeft="1dp" >
+  </TextView>
+
+  <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:id="@+id/playerGameGrelotine"
+  	android:layout_toLeftOf="@id/playerGameCivet"
+  	android:layout_alignTop="@id/playerGameCivet"
+  	android:layout_height="fill_parent"
+  	android:layout_width="22dp"
+  	android:gravity="center_vertical|center_horizontal"
+  	android:text="G"
+  	android:textStyle="bold"
+    android:textColor="#ffffff"
+  	android:textSize="18dp"
+  	android:paddingLeft="1dp" >
+  </TextView>
+  
+</RelativeLayout>
